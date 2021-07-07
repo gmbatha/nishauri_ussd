@@ -6,10 +6,10 @@ include_once('Models.php');
  */
 function _select($sql, $params) {
 
-    $username = 'kap_survey';
-    $password = 'mhealth@123!@#';
-    $database = 'NiShauri';
-    $host = '197.232.82.136:3309';
+    $username = 'USERNAME';
+    $password = 'PASSWORD';
+    $database = 'DATABASE';
+    $host = 'HOST:PORT';
 
     $res = array();
     try {
@@ -32,10 +32,10 @@ function _select($sql, $params) {
  */
 function _execute($sql, $params) {
 
-    $username = 'kap_survey';
-    $password = 'mhealth@123!@#';
-    $database = 'NiShauri';
-    $host = '197.232.82.136:3309';
+    $username = 'USERNAME';
+    $password = 'PASSWORD';
+    $database = 'DATABASE';
+    $host = 'HOST:PORT';
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$database", $username, $password);
